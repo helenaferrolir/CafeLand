@@ -60,10 +60,10 @@ header::after{
 
 
 .menu{
-    margin-top:5px;
     width: 80%;
+    margin-top:0.5em;
     position: absolute;
-    right: 11%;
+    right: 2.5em;
     display: block;
  
 }
@@ -81,11 +81,11 @@ header::after{
 }
 
 .menu ul a{
-    font-size: 18px;
+    font-size: 1.3em;
     font-family: 'Sofia', cursive;
     text-align: center;
     display:block;
-    padding:10px 10px;
+    padding: 0.5em 0.7em;
     color:#8C7C42;
     text-decoration: none;
 }
