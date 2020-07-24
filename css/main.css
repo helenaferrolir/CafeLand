@@ -16,9 +16,8 @@ body{
 header{
     margin-top:0.8rem;
     height: 40vh;
-    background: url('../images/cover.jpg') no-repeat;
-    background-position: 50% 40%;
-    background-size: 60%;
+    background: url('../images/cover-mobile.jpg') no-repeat;
+    background-position: 50% 40%; 
 }
 
 header::after{
@@ -36,15 +35,73 @@ header::after{
     display: flex;
     justify-content: flex-end;
 }
-input#btn_menu{
-    opacity:0;
-}
-.menu div{
-    width: 25px;
-    height: 5px;
-    border-radius: 2px;
-    background-color:#8c7c42;
+
+.menu-mobile img{
     cursor: pointer;
-    margin:0.3em;
 }
+
+.menu-desktop{
+    display: none;
+}
+
+/*
+@media(min-width:400px){
+    .menu-mobile{
+        display: none;
+        }
+    .menu-desktop{
+    display: block;
+}
+.menu-desktop ul{
+    display: flex;
+}
+
+} */
+
+
+.menu{
+    margin-top:5px;
+    width: 80%;
+    position: absolute;
+    right: 11%;
+    display: block;
+ 
+}
+.menu ul{
+    border: 1px solid #000;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu ul li,
+.menu ul li.dicas ul li{
+    background: #2B2A2A;
+}
+
+.menu ul a{
+    font-size: 18px;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    display:block;
+    padding:10px 10px;
+    color:#8C7C42;
+    text-decoration: none;
+}
+
+ul.suboptions-menu{
+    display: none;
+}
+
+.menu ul li:hover, .menu ul li:active,
+.menu ul li.dicas ul li:hover, .menu ul li.dicas ul li:active{
+    background: rgba(43, 42, 42,0.9);
+}
+
+.menu .dicas:hover .suboptions-menu,
+.menu .dicas:active .suboptions-menu{
+    display: block;
+}
+
 

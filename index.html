@@ -6,37 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
         <div class="content">
-            <nav>
-                <div class="menu-mobile">
-                    <input type="checkbox" id="btn_menu">
-                    <div class="menu">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
+            <div class="menu-mobile">
+                <img onclick="btn_menu()" for="btn_menu" class="m" src="images/Union.png" alt="">
+                <!--<div class="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div> -->
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li class="dicas"><a href="">Dicas</a>
+                        <ul class="suboptions-menu">
+                            <li><a href="">Dicas Gerais</a></li>
+                            <li><a href="">Liga</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Contato</a></li>
+                </ul>
 
-                <div style="display:none;" class="menu-desktop">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Dicas</a>
-                            <ul>
-                                <li><a href="">Dicas Gerais</a></li>
-                                <li><a href="">Liga</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Contato</a></li>
-                    </ul>
-                </div>
             </nav>
         </div>
     </header>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
