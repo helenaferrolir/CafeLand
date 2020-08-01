@@ -11,9 +11,10 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body onload="refresh()">
     <header>
         <div class="content">
             <div class="menu-mobile">
@@ -22,15 +23,14 @@
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li class="dicas"><a href="">Dicas</a>
+                    <li class="dicas"><a>Dicas</a>
                         <ul class="suboptions-menu">
-                            <li><a href="">Dicas Gerais</a></li>
+                            <li><a href="dicas-gerais.html">Dicas Gerais</a></li>
                             <li><a href="">Liga</a></li>
                         </ul>
                     </li>
                     <li><a href="">Contato</a></li>
                 </ul>
-
             </nav>
         </div>
     </header>
@@ -97,28 +97,34 @@
     </main>
     <section class="contribute">
         <div class="content">
-            <h2>Contribua</h2>
-            <p>Se você deseja enviar uma dica para ser publicada e ajudar a comunidade, entre em contato: </p>
-            <div class="email">
-                <img src="images/icon-email.svg" alt="icon email"> <a href="mailto:jessicarosalia678@gmail.com">Enviar
-                    e-mail</a>
+            <div class="contribute-contact">
+                <h2>Contribua</h2>
+                <p>Se você deseja enviar uma dica para ser publicada e ajudar a comunidade, entre em contato: </p>
+                <div class="email">
+                    <img src="images/icon-email.svg" alt="icon email"> <a
+                        href="mailto:jessicarosalia678@gmail.com">Enviar
+                        e-mail</a>
+                </div>
             </div>
             <span>Dicas por Jéssica Rosália e Raquel Fernandes</span>
         </div>
     </section>
     <footer>
         <div class="content">
-            <img src="images/logo-branca.png" alt="CafeLand logo">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Dicas Gerais</a></li>
-                <li><a href="">Torneio</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-            <p class="developer">Designed and developed by <img width="10" src="images/github.svg" alt=""> <a href="">
-                    Jéssica
-                    Rosália</a></p>
+            <div class="footer-nav">
+                <img src="images/logo-branca.png" alt="CafeLand logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Dicas Gerais</a></li>
+                    <li><a href="">Liga</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <p class="developer">Designed and developed by <a href="https://github.com/jessicarf18" target="_blank"><img
+                        src="https://img.icons8.com/material-sharp/22/FFFFFF/github.png" alt="Jéssica Rosália Github" />
+                    Jéssica Rosália</a></p>
         </div>
+
     </footer>
     <script src="js/index.js"></script>
 </body>

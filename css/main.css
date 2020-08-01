@@ -28,7 +28,8 @@ a{
 }
 
 .content{
-    max-width: 78%;
+    width: 78%;
+    max-width: 1220px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -52,6 +53,9 @@ header::after{
     background: #2B2A2A;
     z-index: -1;
 }
+header .content a {
+    color:#8C7C42;
+}
 header .content .menu-mobile{
     display: flex;
     justify-content: flex-end;
@@ -61,9 +65,21 @@ header .content .menu-mobile img{
     cursor: pointer;
 }
 
-.menu-desktop{
+header .menu-desktop{
     display: none;
 }
+
+header .menu-desktop a{
+    padding: 0.3em 1.2em;
+}
+
+header .menu-desktop a:hover{
+    background-color:#8C7C42 ;/* rgba(0, 0, 0, 0.514); */
+    color: #000;
+    border-radius: 0.3em;
+}
+
+
 
 /*
 @media(min-width:400px){
@@ -106,8 +122,6 @@ header .content .menu-mobile img{
     text-align: center;
     display:block;
     padding: 0.5em 0.7em;
-    color:#8C7C42;
-    text-decoration: none;
 }
 
 ul.suboptions-menu{
@@ -156,7 +170,7 @@ main .presentation p{
     max-width: 350px;
 }
 
-main .relevants{
+main .relevants .content{
     display: grid;
     grid-template-columns: 1fr;
     margin-top:5rem;
@@ -172,6 +186,7 @@ main .relevants .card{
     cursor: pointer;
     transition: transform 400ms;
     text-align: center;
+    margin: 0 auto;
 }
 
 main .relevants .card:hover,
@@ -267,8 +282,8 @@ main .relevants .card:active a{
 }
 
 .contribute>.content{
-    padding-top:2em;
-    padding-bottom:2em;
+    padding-top:5em;
+    padding-bottom:5em;
 }
 
 .contribute h2{
@@ -278,7 +293,7 @@ main .relevants .card:active a{
 }
 
 .contribute p{
-    width: 90%;
+    width: 100%;
     max-width: 262px;
     
 }
@@ -321,7 +336,7 @@ footer{
     background-color: #2B2A2A;
 }
 
-footer .content > img{
+footer .content .footer-nav > img{
     width: 100px;
     margin:2.7em 0 1em;
 }
@@ -334,12 +349,21 @@ footer ul a{
 }
 
 footer .developer, footer .developer a{
+    margin: 0 auto;
     font-family: inherit;
     color:rgba(255,255,255,0.7);
     font-size: 1em;
     font-weight: bold;
     margin-top: 2em;
     margin-bottom:1em;
+}
 
+footer .developer a img{
+    vertical-align: text-top;
+}
+
+footer .developer img:hover{
+    background-color: #8C7C42;
+    border-radius: 50%;
 }
 
