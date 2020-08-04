@@ -1,0 +1,76 @@
+main .location-navigation{
+    margin-bottom: 4em;
+}
+
+main .location-navigation ul{
+    display: flex;
+}
+
+main .location-navigation li{
+    margin-right: 0.5em;
+}
+
+main .location-navigation li a{
+    color: var(--color-gold-main);
+    font-size: 1em;
+}
+
+main .post {
+    margin-bottom: 5em;
+}
+
+main .post .mais-recente{
+    /*width: 80%;
+    max-width: 395px;  */
+}
+
+main .post h1{
+    margin-bottom:1em;
+}
+
+main .post p{
+    max-width: 315px;
+    margin-bottom: 1em;
+   
+}
+
+main .post img{
+    width: 250px;
+    height: auto;
+    margin-bottom:1em;
+}
+
+aside .content{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+aside .tip{
+    background-color: var(--color-gray-light);
+    border-bottom-left-radius:1.5em;
+    border-top-left-radius: 1.5em;
+    padding: 1em 2em;
+    margin-bottom:1.5em;
+    margin-left: -3em;
+    height: 8em;
+
+}
+
+aside .tip h3{
+    color: var(--color-gold-main);
+    font-size: 0.9em;
+    
+}
+
+aside .tip .desc{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+aside .tip p{
+    margin-left: 1em;
+    font-size:0.9em;
+    
+    
+}

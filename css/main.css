@@ -1,5 +1,8 @@
 :root{
-    --color-black-opaco: #2B2A2A;
+    --color-gold-main: #8C7C42;
+    --color-black-opaque: #2B2A2A;
+    --color-black-text: rgba(0,0,0,0.8);
+    --color-gray-light: #F3F3F7;
 }
 *{
     margin:0;
@@ -16,6 +19,10 @@ body{
 p{
     color:rgba(0,0,0,0.8);
     line-height:1.4em;
+}
+
+h1{
+    font-family: 'Sofia', cursive;
 }
 
 ul {
@@ -118,7 +125,6 @@ header .menu-desktop a:hover{
 
 .menu ul a{
     font-size: 1.3em;
-    font-family: 'Sofia', cursive;
     text-align: center;
     display:block;
     padding: 0.5em 0.7em;
@@ -147,189 +153,6 @@ ul.suboptions-menu{
 main{
     margin-top:-0.5em;
     background: #F8F8FE;
-}
-main .presentation h1{
-    font-family: 'Sofia', cursive;
-    position: relative;
-}
-
-main .presentation h1::after{
-    content:"";
-    position: absolute;
-    width: 8em;
-    height: 0.08em;
-    bottom:0;
-    left:-1em;
-    background:rgba(0,0,0,0.6);
-}
-
-main .presentation p{
-    margin:1.5em auto 0 auto;
-    text-align: center;
-    width: 95%;
-    max-width: 350px;
-}
-
-main .relevants .content{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top:5rem;
-}
-
-main .relevants .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom:2em;
-    width: 14.6em;
-    cursor: pointer;
-    transition: transform 400ms;
-    text-align: center;
-    margin: 0 auto;
-}
-
-main .relevants .card:hover,
-main .relevants .card:active{
-    transform:scale(1.05);
-}
-
-main .relevants .card .face{
-    transition: 0.5s;
-}
-
-main .relevants .card .img-grid{
-    width: 200px;
-    display: grid;
-    grid-template-columns: 1fr;
-
-    position: relative;
-    z-index:1;
-    /*transform: translateY(115px); */
-}
-
-main .relevants .card .face2{
-    position: relative;
-    padding-bottom:1em;
-    transform: translateY(-100px);
-}
-
-main .relevants .card:hover .face2{
-    transform: translateY(0);
-}
-
-
-
-main .relevants .card .img-grid img{
-    grid-row: 1/3;
-    grid-column: 1;
-    align-self: end;
-    width: 200px;
-}
- 
-
-main .relevants .card .img-grid h2{
-    color:#fff;
-    background: rgba(0,0,0,0.8);
-    grid-row: 2/3;
-    grid-column: 1;
-    align-self: end;
-    font-size: 0.95em;
-    text-align: center;
-    padding:0.2em 0.5em;
-}
-
-main .relevants .card p{
-    font-size: 0.8em;
-    text-align: center;
-    margin-bottom:1em;
-
-    margin-top:10px;
-}
-
-@keyframes cardHover{
-    from{
-    opacity: 0;
-
-    }
-    to{
-        opacity: 1;
-    }
-}
-
-main .relevants .card a{
-    font-family: inherit;
-    background: #F8F8FE;
-    border:1px solid #2B2A2A;
-    color:#000;
-    display: inline-block;
-    font-weight: bold;
-    padding:0.4em 0.9em;
-    opacity: 0;
-}
-
-main .relevants .card a:hover,
-main .relevants .card a:active{
-    background: #8C7C42;
-    color:#fff;
-    border:1px solid #8C7C42;
-}
-
-main .relevants .card:hover a,
-main .relevants .card:active a{
-    animation: cardHover 200ms ;
-    animation-fill-mode: forwards;
-}
-
-.contribute>.content{
-    padding-top:5em;
-    padding-bottom:5em;
-}
-
-.contribute h2{
-    color: #8C7C42;
-    margin-bottom:0.5em;
-    text-align: left;
-}
-
-.contribute p{
-    width: 100%;
-    max-width: 262px;
-    
-}
-
-.contribute .email{
-    margin-top:1em;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.contribute .email img{
-    width: 25px;
-}
-
-.contribute .email a{
-    font-family: inherit;
-    color: #f5f5f5;
-    background-color: #8C7C42;
-    display: inline-block;
-    font-weight: bold;
-    padding:0.1em 1em;
-    margin-left:0.5em;
-    transition: 0.2s;
-}
-
-.contribute .email a:hover{
-    background-color: rgba(140, 124, 66,0.9);
-    color:#2B2A2A;
-}
-
-.contribute span{
-    color: rgba(0,0,0,0.5);
-    font-size: 0.8em;
-    font-weight: bold;
-    margin-top: 2em;
 }
 
 footer{

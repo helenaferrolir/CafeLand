@@ -130,3 +130,9 @@
         height: 40vh;
     }
 }
+
+@media(min-width:700px){
+    aside .tip{
+        display: none;
+    }
+}
