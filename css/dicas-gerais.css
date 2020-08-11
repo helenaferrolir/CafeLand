@@ -26,11 +26,13 @@ main .post .mais-recente{
 
 main .post h1{
     margin-bottom:1em;
+    font-size: 1.3em;
 }
 
 main .post p{
     max-width: 315px;
     margin-bottom: 1em;
+    text-align: justify;
    
 }
 
@@ -45,7 +47,7 @@ aside .content{
     margin-left: auto;
 }
 
-aside .tip{
+aside .aside-mobile .tip{
     background-color: var(--color-gray-light);
     border-bottom-left-radius:1.5em;
     border-top-left-radius: 1.5em;
@@ -53,24 +55,106 @@ aside .tip{
     margin-bottom:1.5em;
     margin-left: -3em;
     height: 8em;
-
 }
 
-aside .tip h3{
+aside .aside-mobile .tip a{
+    font-family: 'Open Sans', 'Poppins',sans-serif;
+}
+
+aside .aside-mobile .tip h3{
     color: var(--color-gold-main);
     font-size: 0.9em;
     
 }
 
-aside .tip .desc{
+aside .aside-mobile .tip .desc{
     margin-top: 1em;
     display: flex;
     align-items: center;
 }
 
-aside .tip p{
+aside .aside-mobile .tip p{
     margin-left: 1em;
     font-size:0.9em;
-    
-    
+}
+
+aside .aside-desktop {
+    display: none;
+    background-color: #F3F3F7;
+    width: 78%;
+    max-width: 250px;
+}
+
+aside .aside-desktop ul li a{
+    display: block;
+    color: var(--color-gold-main);
+    padding: 0.8em 1em;
+    transition: color 0.2s;
+}
+
+aside .aside-desktop ul li a:hover{
+    color: rgb(209, 168, 20);
+}
+
+
+@media(min-width:700px){
+    body{
+        font-size: 16px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "location-nav location-nav"
+                              "article aside";
+    }
+
+    main .location-navigation{
+        grid-area: location-nav;
+        width: 100%;
+        justify-items: start;
+    }
+
+    main .post{
+        grid-area: article;
+    }
+
+    main .post .content{
+        width: 69%;
+        justify-items: start;
+    }
+
+    main .post p{
+        max-width: none;
+        line-height: 26px;
+    }
+
+    main .post h1{
+        font-size:22px;
+    }
+
+    main aside .content{
+        margin-left:0;
+        margin-right: auto;
+        align-items:center;
+    }
+
+    main aside .aside-desktop{
+        grid-area: aside;
+        margin-top:2em;
+    }
+
+    aside .aside-mobile .tip{
+        display: none;
+    }
+
+    aside .aside-desktop{
+        display: block;
+    }
+}
+
+@media(min-width:900px){
+    main aside .content{
+        /*align-items:flex-end; */
+    }
 }

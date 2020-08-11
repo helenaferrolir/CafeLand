@@ -175,3 +175,37 @@ main .relevants .card:active a{
     font-weight: bold;
     margin-top: 2em;
 }
+
+@media(min-width: 850px){
+    .presentation .content{
+        flex-direction: row;
+        max-width: 676px;
+        justify-content: space-between;
+    }
+
+    .presentation .content p{
+        text-align: justify;
+        margin: 0;
+        width: 70%;
+        max-width: 375px;
+    }
+    main .presentation h1{
+        max-width: 203px;
+    }
+    main .presentation h1::after{
+        bottom: 10px;
+    }
+
+    main .relevants .content{
+        grid-template-columns: repeat(3,1fr);
+        margin-top:10rem;
+        padding-bottom: 8rem;
+    }
+
+    .contribute .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
