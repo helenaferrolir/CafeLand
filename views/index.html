@@ -1,127 +1,76 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CafeLand</title>
+{% block head %}
+<title>Home - CafeLand</title>
+<link rel="stylesheet" href="/css/home.css">
+{% endblock %}
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&family=Sofia&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/home.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-</head>
-
-<body onload="refresh()">
-    <header>
+{% block content %}
+<main>
+    <section class="presentation">
         <div class="content">
-            <div class="menu-mobile">
-                <img onclick="btn_menu()" class="img-menu" src="images/union.png" alt="">
-            </div>
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li class="dicas"><a>Dicas</a>
-                        <ul class="suboptions-menu">
-                            <li><a href="/dicas-gerais">Dicas Gerais</a></li>
-                            <li><a href="">Liga</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="separator"></div>
-    <main>
-        <section class="presentation">
-            <div class="content">
-                <h1>A que devo a honra?</h1>
-                <p>
-                    “Quem procura acha”. Se está buscando dicas que te ajudarão a avançar de forma
-                    mais consciente no
-                    jogo e construir seu café dos sonhos, espero que ache mesmo! Fique à vontade para vir sempre.
-                </p>
-            </div>
-        </section>
-        <section class="relevants">
-            <div class="content">
-                <div class="card">
-                    <div class="face img-grid">
-                        <img src="images/torneio-cafe3.jpg" alt="">
-                        <h2>Reduza o tempo de espera do caminhão</h2>
-                    </div>
-                    <div class="face face2">
-                        <p>
-                            O caminhão para encher as caixas do buffet pode chegar bem mais rápido agora.
-                            Confira!
-                        </p>
-                        <a href="">Ler Mais</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="face img-grid">
-                        <img src="images/torneio-cafe3.jpg" alt="">
-                        <h2>Cumpra rapidamente a tarefa de ganho de dinheiro e xp nas festas</h2>
-                    </div>
-                    <div class="face face2">
-                        <p>
-                            Faça menos festas e ainda assim atinja a potencial quantidade pedida na tarefa. Confira!
-                        </p>
-                        <a href="">Ler Mais</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="face img-grid">
-                        <img src="images/torneio-cafe3.jpg" alt="">
-                        <h2>Consiga 1/2 mais de emblemas </h2>
-                    </div>
-                    <div class="face face2">
-                        <p>
-                            Para cada prato cozinhado receba 1/2 a mais de emblemas para gastar nos eventos. Confira!
-                        </p>
-                        <a href="">Ler Mais</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <section class="contribute">
-        <div class="content">
-            <div class="contribute-contact">
-                <h2>Contribua</h2>
-                <p>Se você deseja enviar uma dica para ser publicada e ajudar a comunidade, entre em contato: </p>
-                <div class="email">
-                    <img src="images/icon-email.svg" alt="icon email"> <a
-                        href="mailto:jessicarosalia678@gmail.com">Enviar
-                        e-mail</a>
-                </div>
-            </div>
-            <span>Dicas por Jéssica Rosália e Raquel Fernandes</span>
+            <h1>A que devo a honra?</h1>
+            <p>
+                “Quem procura acha”. Se está buscando dicas que te ajudarão a avançar de forma
+                mais consciente no
+                jogo e construir seu café dos sonhos, espero que ache mesmo! Fique à vontade para vir sempre.
+            </p>
         </div>
     </section>
-    <footer>
+    <section class="relevants">
         <div class="content">
-            <div class="footer-nav">
-                <img src="images/logo-branca.png" alt="CafeLand logo">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/dicas-gerais">Dicas Gerais</a></li>
-                    <li><a href="">Liga</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
+            <div class="card">
+                <div class="face img-grid">
+                    <img src="images/torneio-cafe3.jpg" alt="">
+                    <h2>Reduza o tempo de espera do caminhão</h2>
+                </div>
+                <div class="face face2">
+                    <p>
+                        O caminhão para encher as caixas do buffet pode chegar bem mais rápido agora.
+                        Confira!
+                    </p>
+                    <a href="">Ler Mais</a>
+                </div>
             </div>
-            <p class="developer">Designed and developed by <a href="https://github.com/jessicarf18" target="_blank"><img
-                        src="https://img.icons8.com/material-sharp/22/FFFFFF/github.png" alt="Jéssica Rosália Github" />
-                    Jéssica Rosália</a></p>
+
+            <div class="card">
+                <div class="face img-grid">
+                    <img src="images/torneio-cafe3.jpg" alt="">
+                    <h2>Cumpra rapidamente a tarefa de ganho de dinheiro e xp nas festas</h2>
+                </div>
+                <div class="face face2">
+                    <p>
+                        Faça menos festas e ainda assim atinja a potencial quantidade pedida na tarefa. Confira!
+                    </p>
+                    <a href="">Ler Mais</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face img-grid">
+                    <img src="images/torneio-cafe3.jpg" alt="">
+                    <h2>Consiga 1/2 mais de emblemas </h2>
+                </div>
+                <div class="face face2">
+                    <p>
+                        Para cada prato cozinhado receba 1/2 a mais de emblemas para gastar nos eventos. Confira!
+                    </p>
+                    <a href="">Ler Mais</a>
+                </div>
+            </div>
         </div>
-
-    </footer>
-    <script src="js/index.js"></script>
-</body>
-
-</html>
+    </section>
+</main>
+<section class="contribute">
+    <div class="content">
+        <div class="contribute-contact">
+            <h2>Contribua</h2>
+            <p>Se você deseja enviar uma dica para ser publicada e ajudar a comunidade, entre em contato: </p>
+            <div class="email">
+                <img src="images/icon-email.svg" alt="icon email"> <a href="mailto:jessicarosalia678@gmail.com">Enviar
+                    e-mail</a>
+            </div>
+        </div>
+        <span>Dicas por Jéssica Rosália e Raquel Fernandes</span>
+    </div>
+</section>
+{% endblock %}
