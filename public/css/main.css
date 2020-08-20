@@ -201,6 +201,13 @@ footer .developer img:hover{
     }
 }
 
+
+@media(min-width:700px){
+    body{
+        font-size: 16px;
+    }
+}
+
 @media(min-width: 850px){
     header{
         height: 65vh;
