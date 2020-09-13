@@ -1,0 +1,73 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Dicas Gerais - CafeLand</title>
+    <link rel="stylesheet" href="/css/dicas-gerais.css">
+
+{% endblock %}
+
+{% block content %}
+    <main>
+        <div class="location-navigation">
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="/">Home /</a>
+                    </li>
+                    <li>
+                        <a href="">Dicas /</a>
+                    </li>
+                    <li>
+                        <a href="/dicas-torneio">Dicas do Torneio
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <article class="post">
+            <div class="content">
+                <section>
+                    <h1>{{dicaTorneio.title}}</h1>
+
+                    <p>{{dicaTorneio.description}}</p>
+                </section>
+            </div>
+        </article>
+
+        <aside>
+            <div class="content">
+                <div class="aside-mobile">
+                    <section class="tip tip1">
+                        <h3>Caixa de coleta de gorjeta</h3>
+                        <div class="desc">
+                            <img width="30" src="images/torneio-cafe3.jpg" alt="">
+                            <p>Evolua seu café para outro nível e automatize a coleta das gorjetas</p>
+                        </div>
+                    </section>
+
+                    <section class="tip tip2">
+                        <h3>Máquina de aumentar emblemas</h3>
+                        <div class="desc">
+                            <img width="30" src="images/torneio-cafe3.jpg" alt="">
+                            <p>Veja como diminuir o tempo de espera do caminhão</p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="aside-desktop">
+                    <ul>
+                        <li class="i" id="dica1geral">
+                            <a href="">Caixa de coleta de gorjeta</a>
+                        </li>
+                        <li>
+                            <a href="">Máquina de aumentar emblemas</a>
+                        </li>
+                        <li>
+                            <a href="">Reduza o tempo de espera do caminhão</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </main>
+{% endblock %}

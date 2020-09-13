@@ -145,12 +145,6 @@ aside .aside-desktop ul li a:hover{
     }
 
     aside .aside-desktop{
-        display: block;
-    }
-}
-
-@media(min-width:900px){
-    main aside .content{
-        /*align-items:flex-end; */
+        display:block;
     }
 }

@@ -27,3 +27,31 @@ function refresh() {
     })
 
 }
+
+const listItems = document.querySelectorAll("li.i")
+for (let item of listItems) {
+    item.addEventListener("click", function () {
+        const dicaId = item.getAttribute("id")
+        window.location.href = `/dicas-geraiss?id=${dicaId}`
+    })
+}
+
+
+function menu() {
+    const id = "dica1torneio"
+    const li = document.querySelectorAll("nav li.i")
+    for (let ii in li) {
+        ii.addEventListener("click", function () {
+            const i = ii.getAttribute("id")
+            if (i == id) {
+                window.location.href = `/dicas-torneio?id=${id}`
+            }
+        })
+    }
+
+}
+
+
+
+
+

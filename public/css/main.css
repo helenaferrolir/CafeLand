@@ -92,22 +92,6 @@ header .menu-desktop li.dicas a:hover{
     border-bottom-right-radius: 0;
 }
 
-
-/*
-@media(min-width:400px){
-    .menu-mobile{
-        display: none;
-        }
-    .menu-desktop{
-    display: block;
-}
-.menu-desktop ul{
-    display: flex;
-}
-
-} */
-
-
 .menu{
     width: 80%;
     margin-top:1.5em;
