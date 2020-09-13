@@ -27,9 +27,8 @@
         <article class="post">
             <div class="content">
                 <section>
-                    <h1>{{recente.title}}</h1>
-
-                    <p>{{recente.description}}</p>
+                    <h1>{{dicaTorneio.title}}</h1>
+                    <p>{{dicaTorneio.description}}</p>
                 </section>
             </div>
         </article>
@@ -38,7 +37,7 @@
             <div class="content">
                 <div class="aside-mobile">
                     {% for dica in dicasTorneio %}
-                        <a href="/dicas-torneio-more?id={{dica.id}}">
+                        <a href="/dicas-torneio-more?id= {{dica.id}}">
                             <section class="tip tip1">
                                 <h3>{{dica.title}}</h3>
                                 <div class="desc">

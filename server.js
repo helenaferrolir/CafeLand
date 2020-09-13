@@ -63,6 +63,20 @@ server.get("/dicas-gerais-more", function (req, res) {
 server.get("/dicas-torneio", function (req, res) {
     const id = req.query.id
 
+    const recente = dicasTorneio.find(function (dicaTorneioRecente) {
+        if (dicaTorneioRecente.id == "dica1torneio") {
+            return true;
+        } else {
+            return res.send("Dica not found!")
+        }
+    })
+
+    return res.render("dicas-torneio", { recente, dicasTorneio })
+})
+
+server.get("/dicas-torneio-more", function (req, res) {
+    const id = req.query.id
+
     const dicaTorneio = dicasTorneio.find(function (dicaTorneio) {
         if (dicaTorneio.id == id) {
             return true
@@ -73,7 +87,7 @@ server.get("/dicas-torneio", function (req, res) {
         return res.send("Dica not found!")
     }
 
-    return res.render("dicas-torneio", { dicaTorneio })
+    return res.render("dicas-torneio-more", { dicaTorneio, dicasTorneio })
 })
 
 
