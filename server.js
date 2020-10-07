@@ -15,7 +15,6 @@ nunjucks.configure("views",
         express: server,
         autoescape: false,
         noCache: true
-
     })
 
 
@@ -30,7 +29,7 @@ server.get("/", function (req, res) {
 })
 
 
-server.get("/dicas-gerais/", function (req, res) {
+server.get("/dicas-gerais", function (req, res) {
     const id = req.query.id
 
     const recente = dicasGerais.find(function (dicaGeralRecente) {
