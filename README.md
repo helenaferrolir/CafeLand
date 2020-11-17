@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoBarber API" src="https://res.cloudinary.com/lukemorales/image/upload/v1599783084/readme_logos/bancointer_s0x4zc.png" />
+    <img alt="Cafeland logo" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/cover-mobile.jpg" />
     <br>
     Site/blog fictício com dicas sobre o jogo CafeLand
 </h1>
