@@ -14,11 +14,12 @@
 
 <p align="center">
   <a href="" target="_blank">
-    <img alt="Home page" src="">
+    <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/gif-page.gif">
   </a>
+    <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/mobile.png">
 </p>
 
-## Status: :construction: under construction 
+## :construction: Status: under construction 
 ## :pushpin: Technologies
 
 This project was developed with the following technologies:
