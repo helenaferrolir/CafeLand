@@ -17,7 +17,7 @@
   <a href="https://floating-fjord-87881.herokuapp.com/" target="_blank">
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/gif-page.gif">
   </a>
-    <p> Mobile version </p>
+    Mobile version
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/mobile.png">
 </p>
 <br>
