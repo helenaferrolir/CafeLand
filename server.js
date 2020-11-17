@@ -2,6 +2,7 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 
 const server = express()
+const router = express.Router();
 const dicasGerais = require('./data-dg')
 const dicasTorneio = require('./data-dt')
 const { request } = require('express')
@@ -88,6 +89,8 @@ server.get("/dicas-torneio-more", function (req, res) {
 
     return res.render("dicas-torneio-more", { dicaTorneio, dicasTorneio })
 })
+
+server.use('./netlify/functions/api', router);
 
 
 server.listen(5000, function () {
