@@ -13,12 +13,18 @@ module.exports = [
     },
     {
         id: "dica3geral",
-        title: "Máquina de aumentar emblemas",
-        reduced: "Consiga mais emblemas com essa máquina que aumenta a porcentagem para cada prato",
+        title: "A vantagem de adquirir máquinas dos eventos",
+        reduced: "Confira a vantagem de adquirir as máquinas disponíveis para troca nos eventos",
         description: '<p>As máquinas compradas normalmente na loja do café precisam serem construídas e para isso são gastos alguns vales, enquanto que as máquinas compradas com os emblemas não necessitam serem construídas gastando vales. Uma beleza, ne?</p> <p>Passe a pegar máquinas, mas um detalhe: Só pode duas de cada, assim como nas compradas na loja. Comprar com os emblemas você pode várias, mas usar(colocar no Café) só pode duas, e essa dica é só para te alertar quanto a isso, para você não sair comprando tantas ;) </p>'
     },
     {
         id: "dica4geral",
+        title: "Máquina de aumentar emblemas",
+        reduced: "Consiga mais emblemas com essa máquina que aumenta a quantidade para cada prato",
+        description: '<p> Quando começa um novo evento e você corre para olhar as opções de troca já fica logo fascinadx, ne? E aí começa todo o esforço para conseguir os emblemas... Cansa, ne? Mas isso pode melhorar!</p><p>Com a máquina de aumentar emblemas(que no jogo se chama <em>Ajudante de Evento Especial</em>), você consegue aumentar consideravelmente. Mas qual o milagre dessa máquina, então? Ela fornece, além da quantidade padrão de cada prato, mais 1/2 da quantidade inicial de emblemas.  WHAT?????? Calma, senhora...<p> Vamos lá: Imagine que um prato lhe da 120 emblemas, certo? Com a máquina de aumentar emblemas ativada você vai arrecadar o seguinte: os mesmos 120 emblemas do prato + 60(metade do valor "original")!</p><p> Confira na imagem abaixo qual é essa belezura que você pode comprar na loja:'
+    },
+    {
+        id: "dica5geral",
         title: "Reduza o tempo de espera do caminhão",
         reduced: "Veja como diminuir o tempo de espera do caminhão",
         description: '<p>O caminhão para encher as caixas do buffet pode chegar bem mais rápido com essa dica marota, lhe poupando de esperar e de gastar tantos molhos mágicos. Útil para realizar o Desafio do Clube.</p> <p>Você vai precisar comprar o seguinte item: </p>'
