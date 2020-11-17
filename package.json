@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "./node_modules/.bin/netlify-lambda serve",
-    "build": "./node_modules/.bin/netlify-lambda build",
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src",
     "teste": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
