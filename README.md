@@ -19,8 +19,8 @@
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/mobile.png">
 </p>
 <br>
-## :construction: Status: under construction 
-## :pushpin: Technologies
+<h2> :construction: Status: under construction  </h2>
+<h2> :pushpin: Technologies </h2>
 
 This project was developed with the following technologies:
 
