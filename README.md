@@ -18,18 +18,18 @@
   </a>
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/mobile.png">
 </p>
-
+<br>
 ## :construction: Status: under construction 
 ## :pushpin: Technologies
 
 This project was developed with the following technologies:
 
-- [HTML]
-- [CSS]
-- [JavaScript]
-- [NodeJS]
-- [ExpressJS]
-- [VS Code]
+- HTML
+- CSS
+- JavaScript
+- NodeJS
+- ExpressJS
+- VS Code
 
 ## :memo: License
 
