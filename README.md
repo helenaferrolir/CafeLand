@@ -18,9 +18,10 @@
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/gif-page.gif">
   </a>
 </p>
-<p align="center">Mobile version
+<div align="center">
+    <p>Mobile version</p>
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/mobile.png">
-</p>
+</div>
 <br>
 
 <h2 id="technologies"> :pushpin: Technologies </h2>
