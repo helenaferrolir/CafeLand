@@ -1,7 +1,7 @@
 <h1 align="center">
     <img alt="Cafeland logo" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/cover-mobile.jpg" />
     <br>
-    Site/blog fictício com dicas sobre o jogo CafeLand
+    Fictional website/blog with tips about the CafeLand game
 </h1>
 
 <h4 align="center">
