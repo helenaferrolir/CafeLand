@@ -19,7 +19,7 @@
   </a>
 </p>
 <div align="center">
-    <p>Mobile version</p>
+    <p> :iphone: Mobile version</p>
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/mobile.png">
 </div>
 <br>
