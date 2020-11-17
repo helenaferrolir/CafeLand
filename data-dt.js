@@ -9,7 +9,7 @@ module.exports = [
         id: "dica2torneio",
         title: "Enviar buffet completos",
         reduced: "O mistério da missão de buffet completo foi desvendado. Chega de enviar caixas bônus!",
-        description: "Dica simples, porém muito útil: Quando a missão diz que você deve enviar determinada quantidade de bufês completos não inclui os pedidos bônus.É, isso mesmo.Basta enviar os três pratos de cima que já conta como um bufê completo, por exemplo."
+        description: "Dica simples, porém muito útil: Quando a missão diz que você deve enviar determinada quantidade de bufês completos, não inclui os pedidos bônus. É, isso mesmo! Basta enviar os três pratos de cima que já conta como um bufê completo."
     },
     {
         id: "dica3torneio",
