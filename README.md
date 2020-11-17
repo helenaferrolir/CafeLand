@@ -8,19 +8,21 @@
   initial version of this site with tips on the game Cafeland.
 </h4>
 <p align="center">
-  <a href="#cafeland-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#status">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
 </p>
 
 <p align="center">
   <a href="" target="_blank">
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/gif-page.gif">
   </a>
+    <p> Mobile version </p>
     <img alt="Home page" src="https://github.com/jessicarf18/CafeLand/blob/master/public/images/assets-reame/mobile.png">
 </p>
 <br>
-<h2> :construction: Status: under construction  </h2>
-<h2> :pushpin: Technologies </h2>
+
+<h2 id="technologies"> :pushpin: Technologies </h2>
 
 This project was developed with the following technologies:
 
@@ -31,9 +33,11 @@ This project was developed with the following technologies:
 - ExpressJS
 - VS Code
 
-## :memo: License
+<h2 id="status"> :construction: Status:</h2> under construction  
 
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/bancointer/blob/master/LICENSE) for more information.
+<h2 id="license"> :memo: License </h2>
+
+This project is under the MIT license. See the [LICENSE](https://github.com/jessicarf18/CafeLand/blob/master/LICENSE) for more information.
 
 Made with ♥ by Jéssica Rosália 👋 Get in touch!
 
