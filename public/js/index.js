@@ -1,5 +1,4 @@
-function btn_menu() {
-    const tracos = document.querySelector('img.img-menu')
+function btn_menu() {    
     const nav = document.querySelector('nav')
 
     const menuDesktop = document.querySelector('.menu-desktop')

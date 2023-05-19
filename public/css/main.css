@@ -100,14 +100,12 @@ header .menu-desktop li.dicas a:hover{
     display: block;
  
 }
+
 .menu ul{
     border: 1px solid #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.menu ul{
     background: #2B2A2A;
 }
 

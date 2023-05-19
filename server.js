@@ -31,8 +31,7 @@ server.get("/", function (req, res) {
 
 
 server.get("/dicas-gerais", function (req, res) {
-    const id = req.query.id
-
+    
     const recente = dicasGerais.find(function (dicaGeralRecente) {
         if (dicaGeralRecente.id == "dica1geral") {
             return true;
